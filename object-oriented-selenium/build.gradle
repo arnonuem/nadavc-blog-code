@@ -1,0 +1,19 @@
+/*
+ * Copyright © 2015 Nadav Cohen <nadavcoh@gmail.com>
+ * This work is free. You can redistribute it and/or modify it under the
+ * terms of the WTFPL, Version 2, as published by Sam Hocevar.
+ * See the COPYING file for more details.
+ */
+
+apply plugin: 'groovy'
+
+sourceCompatibility = 1.8
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    compile 'org.seleniumhq.selenium:selenium-java:2.45.0'
+    compile 'com.google.guava:guava:18.0'
+}
